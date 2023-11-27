@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "569575892508",
+    "project_id": "stopbell-128b6",
+    "storage_bucket": "stopbell-128b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569575892508:android:8e0a38fc5061a9864461d9",
+        "android_client_info": {
+          "package_name": "com.example.stopbell"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI-_ZEw2F3i_7Y1UH-XIgBCkKThtPjlnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

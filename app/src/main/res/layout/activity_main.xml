@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <!-- 상단 헤더 부분 -->
+    <RelativeLayout
+        android:id="@+id/headerSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp">
+
+
+        <TextView
+            android:id="@+id/busRouteNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="3212"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp" /> <!-- 버스 노선 번호 -->
+
+        <TextView
+            android:id="@+id/busRouteInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/busRouteNumber"
+            android:layout_centerHorizontal="true"
+            android:text="강동차고지 ↔ 강변역"
+            android:textSize="16sp"
+            android:textColor="@android:color/white" /> <!-- 노선 정보 -->
+    </RelativeLayout>
+
+    <!-- 버스 정류장 리스트 -->
+    <ListView
+        android:id="@+id/busStopListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/headerSection"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:paddingTop="40dp"
+        android:listSelector="@android:color/holo_green_light" />
+</RelativeLayout>
